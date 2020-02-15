@@ -22,7 +22,7 @@ public class Solution101 {
 
         return (left.val == right.val) && helper(left.left, right.right) && helper(left.right, right.left);
     }
-    
+
     public class TreeNode {
         int val;
         TreeNode left;
